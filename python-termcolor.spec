@@ -2,13 +2,13 @@
 Summary:	ANSII Color formatting for output in terminal
 Name:		python-%{module}
 Version:	0.1.2
-Release:	0.1
+Release:	1
 License:	GPL v3
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/t/termcolor/termcolor-%{version}.tar.gz
 # Source0-md5:	bc0f9923c8c82643a6b48e1b0f87399f
 URL:		http://pypi.python.org/pypi/termcolor
-BuildRequires:	python-devel
+BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	python-modules
