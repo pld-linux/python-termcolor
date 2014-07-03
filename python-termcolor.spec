@@ -1,12 +1,12 @@
-%define 	module	termcolor
+%define		module	termcolor
 Summary:	ANSII Color formatting for output in terminal
 Name:		python-%{module}
-Version:	0.1.2
+Version:	1.1.0
 Release:	1
 License:	GPL v3
 Group:		Development/Languages/Python
 Source0:	http://pypi.python.org/packages/source/t/termcolor/termcolor-%{version}.tar.gz
-# Source0-md5:	bc0f9923c8c82643a6b48e1b0f87399f
+# Source0-md5:	043e89644f8909d462fbbfa511c768df
 URL:		http://pypi.python.org/pypi/termcolor
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
@@ -39,7 +39,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS.txt CHANGES.txt README.txt
+%doc CHANGES.rst README.rst
 %{py_sitescriptdir}/*.py[co]
 %if "%{py_ver}" > "2.4"
 %{py_sitescriptdir}/termcolor-*.egg-info
