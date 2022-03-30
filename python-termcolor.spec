@@ -7,7 +7,7 @@ Summary:	ANSI Color formatting for output in terminal
 Summary(pl.UTF-8):	Kolorowe formatowanie wyjścia na terminalu przy użyciu sekwencji ANSI
 Name:		python-termcolor
 Version:	1.1.0
-Release:	7
+Release:	8
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	https://files.pythonhosted.org/packages/source/t/termcolor/termcolor-%{version}.tar.gz
